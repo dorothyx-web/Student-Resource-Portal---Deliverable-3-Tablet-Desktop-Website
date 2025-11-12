@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UMSI Career Development Hub</title>
+  <link rel="stylesheet" href="html5reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+  <header>
+    <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" />
+    <h1>UMSI Career Development Hub</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="resume.html">Resumes</a></li>
+        <li><a href="networking.html">Networking & Connections</a></li>
+        <li><a href="interviews.html">Interviews</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section>
+      <h2>Welcome</h2>
+      <p>
+        This site helps UMSI students find quick, reliable career resources — from resumes and networking to interview prep.
+      </p>
+    </section>
+
+    <section class="grid-container">
+      <div class="grid-item">
+        <h3>Resumes</h3>
+        <p>Learn how to craft strong, clear, and professional resumes.</p>
+        <a href="resume.html" class="btn">Explore</a>
+      </div>
+      <div class="grid-item">
+        <h3>Networking</h3>
+        <p>Build connections using tools like the LAMP list and LinkedIn.</p>
+        <a href="networking.html" class="btn">Explore</a>
+      </div>
+      <div class="grid-item">
+        <h3>Interviews</h3>
+        <p>Prepare your “Tell Me About Yourself” story and practice common questions.</p>
+        <a href="interviews.html" class="btn">Explore</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Connect with the CDO</h2>
+      <p>
+        Visit the
+        <a href="https://umich.instructure.com/courses/137916" target="_blank">
+          Career Development Office site
+        </a>
+        for coaching sessions, workshops, and events.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> University of Michigan School of Information</p>
+    <p>
+      Career Development Office |
+      <a href="https://umich.instructure.com/courses/137916" target="_blank">CDO Canvas Site</a> |
+      <a href="mailto:umsi.careers@umich.edu">umsi.careers@umich.edu</a>
+    <p>
+      UMSI CDO Location: 105 South State Street, Ann Arbor, MI 48109 | Phone: (734) 764-1258
+    </p>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
